@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "./static/css/main.6b3768d3.css",
-    "main.js": "./static/js/main.fecd876e.js",
+    "main.js": "./static/js/main.83dacea7.js",
     "static/media/geirangerfjord.jpg": "./static/media/geirangerfjord.3efad1b50c31c0617f02.jpg",
+    "static/media/my-travel-journal.png": "./static/media/my-travel-journal.d6923cea14bf3263bc71.png",
     "static/media/sydney-opera-house.jpg": "./static/media/sydney-opera-house.26fa3ce64f9966767935.jpg",
     "static/media/mount-fuji.jpg": "./static/media/mount-fuji.9333931fb05913066615.jpg",
     "index.html": "./index.html",
     "main.6b3768d3.css.map": "./static/css/main.6b3768d3.css.map",
-    "main.fecd876e.js.map": "./static/js/main.fecd876e.js.map"
+    "main.83dacea7.js.map": "./static/js/main.83dacea7.js.map"
   },
   "entrypoints": [
     "static/css/main.6b3768d3.css",
-    "static/js/main.fecd876e.js"
+    "static/js/main.83dacea7.js"
   ]
 }
