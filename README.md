@@ -17,4 +17,6 @@
 
 ### [Confira](https://renanmdp.github.io/my-travel-journal/)
 
-<img src="https://i.ibb.co/xCJBXnM/my-travel-journal.png" alt="digital-business-card-screenshot" border="0">
+<!-- <img src="https://i.ibb.co/xCJBXnM/my-travel-journal.png" alt="digital-business-card-screenshot" border="0"> -->
+
+![Example](./src/images/my-travel-journal.png)
