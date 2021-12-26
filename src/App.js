@@ -1,24 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Header from './components/Header';
+import Cards from './components/Cards';
+import dataArray from './data';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
-function App() {
+const App = () => {
+  const cards = dataArray.map(item => {
+    return (
+      <Cards
+        key={item.id}
+        image={item.image}
+        alt={item.alt}
+        title={item.title}
+        location={item.location}
+        googleMaps={item.googleMaps}
+        start={item.date.start}
+        end={item.date.end}
+        description={item.description}
+      />
+    )
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Container className="main--container">
+      <Row>
+        <Col>
+          <Header />
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          {cards}
+        </Col>
+      </Row>
+    </Container>
   );
 }
 

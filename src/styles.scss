@@ -1,0 +1,90 @@
+@import "~bootstrap/scss/bootstrap";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+  .main--container {
+    // background-color: blue;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+
+    .header--container {
+      background-color: #F55A5A;
+      color: white;
+      text-align: center;
+      height: 3.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
+
+      .header--text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 0.875rem;
+        line-height: 1.125rem;
+      }
+    }
+
+    .card--container {
+      // padding: 1.5rem;
+      border: none;
+      border-radius: 0;
+
+      .card--image {
+        width: 100%;
+      }
+
+      .card--line {
+        padding: 0;
+        margin: 0;
+        margin-top: 2rem;
+      }
+
+      .card--col {
+        color: #2B283A;
+        margin-top: 1rem;
+
+        .card--header {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 0.5rem;
+  
+          .card--locationName {
+            letter-spacing: 0.17rem;
+          }
+  
+          .card--googleMaps {
+            color: #6d4ae2;
+          }
+  
+          .fa-map-marker-alt {
+            color: #F55A5A;
+          }
+        }
+  
+        .card--title {
+          font-size: 2.0rem;
+        }
+
+        .card--date {
+          font-size: 0.85rem;
+        }
+  
+        .card--title, .card--date, .card--description {
+          padding: 0.5rem 0;
+        }
+
+        .card--title, .card--date {
+          font-weight: bold;
+        }
+
+        .card--description {
+          font-size: 1rem;
+        }
+      } // .card--col
+    }
+  }
+}
