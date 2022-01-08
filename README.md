@@ -17,4 +17,4 @@
 
 ### [Confira](https://renanmdp.github.io/my-travel-journal/)
 
-![Example](../src/images/my-travel-journal.png)
+![Example](https://github.com/RenanMDP/my-travel-journal/tree/master/src/images)
